@@ -28,7 +28,7 @@ console.log('My name is ' + fullName + ' and I think ' + luckyNumber + ' is a wi
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
-let adventurous = false;
+let adventurous = true;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 
@@ -126,4 +126,6 @@ switch (luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+let response = (adventurous ? 'Adventures are great!' : 'How about we stay we home?');
 
+console.log(response);
